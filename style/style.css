@@ -263,6 +263,271 @@ nav .logo span{
     font-weight: 800;
 }
 
+/* choose us part style */
+
+
+.choose-text{
+    text-align: center;
+}
+
+.choose-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.choose-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 48px;
+}
+
+.our-facility{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.facility{
+    width: 573px;
+    padding: 32px 55px 32px 32px;
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+}
+
+.facility h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 32px 0 16px;
+}
+
+.facility p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.green{
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.2);
+}
+/* ======================= */
+
+
+
+
+
+/* perfect place part style */
+
+#perfect-place .container{
+    display: flex;
+    gap: 28px;
+}
+
+#perfect-place .left-side{
+    width: 50%;
+}
+
+#perfect-place .right-side{
+    width: 50%;
+}
+
+.place-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.place-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.place-list li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+#perfect-place .right-side img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#perfect-place .right-side {
+    position: relative;
+}
+
+.place-text {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-39%, 4%);
+    width: 446px;
+}
+
+.place-text h3{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+/* news latter part style */
+
+#news-latter .container{
+   display: flex;justify-content: space-between;
+}
+
+#news-latter .left-side{
+    width: 474px;
+    border: 1px solid var(--main-color);
+    padding: 40px 41px;
+    border-radius: 16px;
+}
+
+.newslatter-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newslatter-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px;
+}
+
+.left-side .form-filup{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 393px;
+    padding: 16px 251px 16px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.left-side .form-button{
+    padding: 14px 147px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+#news-latter .right-side img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#news-latter .right-side{
+    position: relative;
+}
+
+
+.right-side .save-up {
+    width: 324px;
+    background-color: var(--main-color);
+    border-radius: 16px;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 63px;
+    transform: rotate(332deg);
+}
+
+.save-title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.save-description{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+/* footer part style */
+
+#footer-part{
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+#footer-part .container{
+    padding: 110px 200px;
+    text-align: center;
+}
+
+#footer-part .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#footer-part .logo h2{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#footer-part .logo span{
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-desciption{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0 33px;
+}
+
+ footer hr{
+   margin: 50px 0;
+}
+
+footer small{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .icons i{
+    margin-right: 20px;
+    color: #000;
+    
+}
+
+
+
+
+
+
 
 
 
@@ -375,7 +640,7 @@ nav .logo span{
     /* Choose Destination part responsive style */
 
     #choose-destination .container {
-        margin-left: 24px;
+        margin-left: 21px;
     }
 
     .row {
@@ -393,12 +658,84 @@ nav .logo span{
     .destination-title {
         font-size: 20px;
     }
-
     .destination-description {
         font-size: 16px;
-        line-height: 24px;
-        margin: 16px 0;
+        line-height: 26px;
+        padding: 0 19px;
     }
+
+    /* perfect place part responsive start */
+
+    #perfect-place .container {
+        flex-direction: column;
+    }
+
+    #perfect-place .left-side {
+        width: auto;
+    }
+
+    #perfect-place .right-side {
+        width: 354px;
+    }
+
+    /* newslatter part start responsive style */
+
+    #news-latter .container {
+        flex-direction: column;
+    }
+
+    #news-latter .left-side {
+        width: 356px;
+        padding: 41px 11px;
+    }
+
+    .left-side .form-filup {
+        width: 330px;
+        padding: 16px 61px 14px 20px;
+    }
+
+    #news-latter .right-side {
+        margin-top: 16px;
+    }
+
+    #news-latter .right-side img {
+        height: 300px;
+    }
+
+    .right-side .save-up {
+        width: 206px;
+        padding: 16px;
+        right: 2px;
+        bottom: 55px;
+        transform: rotate(322deg);
+    }
+
+    .save-description {
+    
+        font-size: 1rem;
+    }
+
+    /* footer part responsive style */
+
+    #footer-part .container {
+        padding: 33px 44px;
+    }
+
+    #footer-part .logo h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    #footer-part .logo span {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    footer hr {
+        margin: 18px 0;
+    }
+
+
 
 
 
