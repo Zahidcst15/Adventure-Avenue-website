@@ -526,7 +526,9 @@ footer .icons i{
 
 
 
-
+.siam{
+    visibility: hidden;
+}
 
 
 
@@ -545,6 +547,10 @@ footer .icons i{
         margin-left: 10px;
         margin-right: 10px;
 
+    }
+
+    ul{
+        list-style: none;
     }
 
    /* nav responsive style */
@@ -664,18 +670,35 @@ footer .icons i{
         padding: 0 19px;
     }
 
+    /* choose us part responsive style */
+
+    .facility {
+        width: 330px;
+        padding: 22px 24px 21px 14px;
+    }
+
+    .choose-text {
+        width: 346px;
+    }
+
     /* perfect place part responsive start */
 
     #perfect-place .container {
         flex-direction: column;
+        width: 332px;
     }
 
     #perfect-place .left-side {
-        width: auto;
+        width: 345px;
     }
 
-    #perfect-place .right-side {
-        width: 354px;
+    #perfect-place .right-side img {
+        width: 330px;
+        height: 100%;
+    }
+
+    .place-text {
+        width: 259px;
     }
 
     /* newslatter part start responsive style */
@@ -685,12 +708,12 @@ footer .icons i{
     }
 
     #news-latter .left-side {
-        width: 356px;
+        width: 338px;
         padding: 41px 11px;
     }
 
     .left-side .form-filup {
-        width: 330px;
+        width: 310px;
         padding: 16px 61px 14px 20px;
     }
 
@@ -700,12 +723,13 @@ footer .icons i{
 
     #news-latter .right-side img {
         height: 300px;
+        width: 335px;
     }
 
     .right-side .save-up {
         width: 206px;
         padding: 16px;
-        right: 2px;
+        right: 23px;
         bottom: 55px;
         transform: rotate(322deg);
     }
@@ -733,10 +757,8 @@ footer .icons i{
 
     footer hr {
         margin: 18px 0;
+        width: 278px;
     }
-
-
-
 
 
 }
