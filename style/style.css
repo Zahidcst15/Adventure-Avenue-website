@@ -544,6 +544,7 @@ footer .icons i{
             
     main .container{
         margin-bottom: 24px;
+        max-width: 335px;
         margin-left: 10px;
         margin-right: 10px;
 
@@ -746,12 +747,12 @@ footer .icons i{
     }
 
     #footer-part .logo h2 {
-        font-size: 1.5rem;
+        font-size: 16px;
         font-weight: 600;
     }
 
     #footer-part .logo span {
-        font-size: 1.5rem;
+        font-size: 16px;
         font-weight: 800;
     }
 
